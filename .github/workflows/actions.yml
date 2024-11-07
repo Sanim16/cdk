@@ -91,6 +91,7 @@ jobs:
       - run: mkdir cdk_max && cd cdk_max
 
       - run: cdk init sample-app --language python
+        working-directory: ./cdk_max
 
 
 
