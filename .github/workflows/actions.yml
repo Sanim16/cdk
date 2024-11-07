@@ -90,7 +90,7 @@ jobs:
 
       - run: mkdir cdk_max && cd cdk_max
 
-      - run: cdk init max-app --language python
+      - run: cdk init sample-app --language python
 
 
 
